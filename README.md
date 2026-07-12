@@ -11,6 +11,7 @@ Repository này dùng để chuẩn hóa cách làm báo cáo:
 - Checklist rà soát trước khi nộp.
 - Prompt/skill để áp dụng nhanh cho các đề tài khác.
 - Cách đưa liên hệ thực tế vào bài để đạt điểm cao.
+- Logo và ví dụ theo môn học để tham khảo nhanh.
 
 ## Cấu trúc repo
 
@@ -18,6 +19,17 @@ Repository này dùng để chuẩn hóa cách làm báo cáo:
 .
 ├── README.md
 ├── STYLE_GUIDE.md
+├── assets/
+│   └── logo/
+│       ├── README.md
+│       └── kma-logo.svg
+├── examples/
+│   ├── README.md
+│   └── quan-ly-an-toan-thong-tin/
+│       └── de-13-benh-an-dien-tu/
+│           ├── README.md
+│           ├── bao-cao-mau.md
+│           └── ghi-chu-review.md
 ├── templates/
 │   ├── bao_cao_3_chuong.md
 │   ├── de_cuong_3_chuong.md
@@ -35,8 +47,14 @@ Repository này dùng để chuẩn hóa cách làm báo cáo:
 3. Mở rộng thành báo cáo theo `templates/bao_cao_3_chuong.md`.
 4. Áp dụng format theo `STYLE_GUIDE.md`.
 5. Thêm hình workflow, bảng phân tích, ma trận kiểm soát và phần liên hệ thực tế.
-6. Rà soát bằng `templates/review_checklist.md`.
-7. Xuất PDF và kiểm tra lần cuối trước khi nộp.
+6. Chèn logo từ `assets/logo/kma-logo.svg` nếu cần trang bìa theo phong cách KMA.
+7. Tham khảo ví dụ theo môn trong `examples/`.
+8. Rà soát bằng `templates/review_checklist.md`.
+9. Xuất PDF và kiểm tra lần cuối trước khi nộp.
+
+## Ví dụ hiện có
+
+- `examples/quan-ly-an-toan-thong-tin/de-13-benh-an-dien-tu/`: ví dụ đề tài về bệnh án điện tử, thất bại thực thi quy trình bảo mật, xác thực theo ngữ cảnh, break-glass access và truyền thông thay đổi hành vi.
 
 ## Nguyên tắc quan trọng
 
