@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Học viện Kỹ thuật Mật mã</title>
+  <desc id="desc">Vector logo reference for KMA report templates.</desc>
+  <defs>
+    <path id="topArc" d="M 170 600 A 430 430 0 0 1 1030 600" />
+    <path id="bottomArc" d="M 1030 600 A 430 430 0 0 1 170 600" />
+    <style>
+      .red{fill:#ef2b2a}.yellow{fill:#ffc20e}.white{fill:#fff}.text{font-family:'Times New Roman',serif;font-weight:700;letter-spacing:8px}.small{font-family:Arial,sans-serif;font-weight:700;letter-spacing:4px}
+    </style>
+  </defs>
+  <circle cx="600" cy="600" r="600" class="red"/>
+  <circle cx="600" cy="600" r="558" class="white"/>
+  <circle cx="600" cy="600" r="425" class="yellow"/>
+  <circle cx="600" cy="600" r="380" class="red"/>
+
+  <text class="text red" font-size="76">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">HỌC VIỆN KỸ THUẬT MẬT MÃ</textPath>
+  </text>
+  <text class="small red" font-size="58">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">ACADEMY OF CRYPTOGRAPHY TECHNIQUES</textPath>
+  </text>
+
+  <text x="112" y="626" class="yellow" font-size="92" font-family="Arial" text-anchor="middle">★</text>
+  <text x="1088" y="626" class="yellow" font-size="92" font-family="Arial" text-anchor="middle">★</text>
+
+  <!-- Key symbol -->
+  <g class="white" transform="translate(600 330)">
+    <rect x="-12" y="-45" width="24" height="110" rx="4"/>
+    <rect x="-36" y="-45" width="50" height="12"/>
+    <rect x="-36" y="-22" width="42" height="12"/>
+    <rect x="-36" y="1" width="34" height="12"/>
+    <circle cx="0" cy="92" r="56"/>
+    <circle cx="0" cy="92" r="35" fill="#ef2b2a"/>
+  </g>
+
+  <!-- Open book symbol -->
+  <g transform="translate(600 690)">
+    <path class="white" d="M0 150 C-72 28 -174 -54 -305 -65 L-430 160 C-230 130 -102 145 0 238 Z"/>
+    <path class="white" d="M0 150 C72 28 174 -54 305 -65 L430 160 C230 130 102 145 0 238 Z"/>
+    <path class="red" d="M-114 -68 L-182 86 C-102 102 -42 132 0 238 C-42 76 -75 2 -114 -68 Z"/>
+    <path class="red" d="M114 -68 L182 86 C102 102 42 132 0 238 C42 76 75 2 114 -68 Z"/>
+  </g>
+</svg>
